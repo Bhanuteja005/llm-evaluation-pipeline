@@ -57,22 +57,10 @@ cp .env.example .env
 
 ## Quick Start
 
-### Basic Usage (Mock LLM)
+### Usage
 
 ```bash
-# Run evaluation with mock LLM (no API key needed)
-python -m src.cli evaluate \
-  --conversation samples/sample-chat-conversation-01.json \
-  --context samples/sample_context_vectors-01.json \
-  --out results.json
-```
 
-### With OpenAI
-
-```bash
-# Set environment variable
-export LLM_PROVIDER=openai
-export OPENAI_API_KEY=sk-...
 
 # Run evaluation
 python -m src.cli evaluate \
