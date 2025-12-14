@@ -28,32 +28,6 @@ Input JSONs → Ingest → Prompt Builder → LLM Client → Evaluators → Scor
                                                     └──────────┘
 ```
 
-## Installation
-
-### Prerequisites
-
-- Python 3.11+
-- pip or uv
-
-### Setup
-
-```bash
-# Clone repository
-git clone <repo-url>
-cd llm-eval-pipeline
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Copy environment template
-cp .env.example .env
-
-# Edit .env with your settings (optional: add OpenAI key for real LLM)
-```
 
 ## Quick Start
 
